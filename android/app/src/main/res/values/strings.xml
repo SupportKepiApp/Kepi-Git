@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">KepiApp</string>
+    <string name="title_activity_main">KepiApp</string>
+    <string name="package_name">com.kepi.app</string>
+    <string name="custom_url_scheme">com.kepi.app</string>
+</resources>

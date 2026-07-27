@@ -1,0 +1,33 @@
+
+# Bağımlılıklar
+node_modules/
+
+# Derleme Çıktıları ve Önbellek
+dist/
+dist-electron/
+.bolt/
+
+# Ortam Değişkenleri (Gizli Anahtar/Şifreler)
+.env
+.env.local
+.env*.local
+
+# Android ve Capacitor Geçici/Sistem Dosyaları
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/captures/
+
+# İmza Anahtarları (Keystore - ÇOK ÖNEMLİ)
+*.jks
+*.keystore
+*.p12
+
+# Sistem / IDE Dosyaları
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json

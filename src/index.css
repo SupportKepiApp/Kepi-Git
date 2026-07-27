@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface-0: 10 10 12;
+  --surface-1: 22 22 26;
+  --surface-2: 34 34 40;
+  --content: 240 240 245;
+  --content-dim: 140 140 150;
+  --border: 45 45 52;
+}
+
+html.light {
+  --surface-0: 248 248 250;
+  --surface-1: 255 255 255;
+  --surface-2: 240 240 244;
+  --content: 20 20 24;
+  --content-dim: 100 100 110;
+  --border: 220 220 228;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+  background: rgb(var(--surface-0));
+  color: rgb(var(--content));
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+input, button, select {
+  font-family: inherit;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
